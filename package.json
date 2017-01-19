@@ -1,0 +1,15 @@
+{
+  "name": "babelrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts" : {
+       "scripts" : "babel src --source-maps-inline --out-dir dist",
+       "scripts:watch" : "babel src --watch --source-map-inline --out-dir dist"
+   },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  }
+}
